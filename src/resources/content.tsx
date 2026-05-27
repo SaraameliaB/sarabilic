@@ -26,7 +26,7 @@ const social: Social = [
     name: "GitHub",
     icon: "github",
     link: "https://github.com/SaraameliaB/sarabilic",
-    essential: true,
+    essential: false,
   },
   {
     name: "LinkedIn",
