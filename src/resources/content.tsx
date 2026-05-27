@@ -64,7 +64,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Sara Amelia, A Junior Cybersecurity GRC Consultant at <Text as="span" size="xl" weight="strong">EY Belgium </Text>, where I translate technical security insights into clear proactive solutions and advice. <br /> After hours, I explore and maintain pentesting and build my technical cybersecurity skills!
+    I'm Sara Amelia, a junior cybersecurity GRC Consultant at <Text as="span" size="xl" weight="strong">EY Belgium </Text>, where I translate technical security insights into clear proactive solutions and advice. <br /> After hours, I explore and maintain pentesting and build my technical cybersecurity skills!
 </>
   ),
 }
