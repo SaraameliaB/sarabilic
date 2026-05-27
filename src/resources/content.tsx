@@ -13,7 +13,7 @@ const person: Person = {
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
@@ -101,9 +101,8 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Sara Amelia is a Junior Cybersecurity GRC Consultant at EY Belgium with a background in Cybersecurity & Computer Science from HOWEST University of Applied Sciences. She combines a technical foundation with a GRC mindset, helping bridge the gap between cybersecurity expertise and strategic business decision-making.
+         Outside of consulting, she explores pentesting and hands-on security projects to keep strengthening her technical perspective.
       </>
     ),
   },
