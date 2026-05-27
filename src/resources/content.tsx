@@ -273,7 +273,7 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about network events and communities!",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -283,7 +283,7 @@ const work: Work = {
   path: "/work",
   label: "Work",
   title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  description: `Some recently involved projects and achievements of ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
@@ -297,44 +297,39 @@ const gallery: Gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "/images/projects/ey-internship/cover.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
+      src: "/images/projects/ey-internship/selfie.jpeg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "/images/blog/aquatopia-hack-the-future/project-photo-01.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/blog/enisa-8th-edition/event-photo-01.jpeg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-2.jpg",
+      src: "/images/blog/nato-t&m/event-photo-01.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "/images/projects/campus-stack/coverpage-05.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-4.jpg",
+      src: "/images/blog/threats-to-tactics/event-photo-02.jpeg",
       alt: "image",
       orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-3.jpg",
-      alt: "image",
-      orientation: "vertical",
     },
   ],
 };
