@@ -6,7 +6,7 @@ const person: Person = {
   lastName: "Bilic",
   name: `Sara Amelia Bilic`,
   role: "Cybersecurity FSO Consultant at EY | Graduating Student at HOWEST",
-  avatar: "/images/avatar.jpeg",
+  avatar: "/images/avatar.JPG",
   email: "sara_bilic@outlook.com",
   location: "Europe/Brussels", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Dutch", "Polish", "French"], // optional: Leave the array empty if you don't want to display languages
@@ -60,7 +60,7 @@ const home: Home = {
         </Text>
       </Row>
     ),
-    href: "/work/digital-portfolio",
+    href: "/work",
   },
   subline: (
     <>
